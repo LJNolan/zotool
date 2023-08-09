@@ -1,6 +1,4 @@
-This tool is meant to make corrections to the standard output .bib file from
-Zotero.  I hope it will be generally useful to a wide audience, but it is
-written from an astronomy perspective, mostly pulling from NASA/Harvard ADS.
+This tool is meant to make corrections to the standard output .bib file from Zotero.  I hope it will be generally useful to a wide audience, but it is written from an astronomy perspective, mostly pulling from NASA/Harvard ADS.
 
 The general idea of using this tool is:
 1) Open Zotero, and navigate to your project folder.
@@ -8,4 +6,4 @@ The general idea of using this tool is:
 3) Run Zotool, specifying in the script the path from zotool.py to your new .bib file.
 4) Use the .bib file for whatever your LaTeX project is.
 
-It ought to be that easy.  There is a prewritten dictionary to convertThe main utility I've built is converting journal names to LaTeX commands from AASTeX, but it should be pretty easy to add functionality to make pretty much whatever systematic edits you want.  There's a simple example called "annoy" which has a dictionary of things I like to get changed in my bibliographies.
+It ought to be that easy.  The main utility I've built is converting journal names to LaTeX commands from a given dictionary, but it should be pretty easy to add functionality to make pretty much whatever systematic edits you want.  There's a simple example called "annoy" which has a dictionary of things I like to get changed in my bibliographies. I've also written a directory with the appropriate abbreviations for AASTeX.
